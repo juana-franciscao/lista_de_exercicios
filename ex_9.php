@@ -33,7 +33,11 @@ for ($i = 1; $i < $numero; $i++) {
 $numeroPerfeito = ($somaDivisores == $numero) ? "é perfeito" : "não é perfeito";
 //final numero perfeito
 
+return [$parOuImpar, $numeroPrimo, $numeroPerfeito];
 
 }
 
- return [$parOuImpar, $numeroPrimo, $numeroPerfeito];
+echo "Analisando o número 6:" . "<br>";
+$numero = 6;    
+$analise = analisarNumero($numero);
+echo "O número $numero " . $analise[0] . ", " . $analise[1] . " e " . $analise[2] . ".";

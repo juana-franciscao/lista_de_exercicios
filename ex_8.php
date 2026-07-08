@@ -1,6 +1,6 @@
 <?php
 
-funtion ordenarNomes($nomes) {
+function ordenarNomes($nomes) {
     sort($nomes);
     return $nomes;  
 
