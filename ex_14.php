@@ -2,7 +2,7 @@
 
 function estatisticasNumericas($numeros){
 
-}$soma = 0;
+$soma = 0;
     $pares = 0;
     $impares = 0;
 
@@ -51,7 +51,7 @@ function estatisticasNumericas($numeros){
 }
 
 // Vetor de números
-$numeros = [1, 6, 7, 67, 18, 4, 21];
+$numeros = [1, 8, 4, 69, 3, 2, 9];
 
 
 echo estatisticasNumericas($numeros);

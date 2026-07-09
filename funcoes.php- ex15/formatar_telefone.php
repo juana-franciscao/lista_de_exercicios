@@ -8,5 +8,5 @@ function formatarTelefone($telefone){
 
 $telefone = 47991731781;
 
-echo "O telefone era: $telefone";
-echo "O telefone ficou:" .formatarTelefone($telefone);
+echo "O telefone era: $telefone" . "<br>";
+echo "O telefone ficou:" .formatarTelefone($telefone). "<br>";

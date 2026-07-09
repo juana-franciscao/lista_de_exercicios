@@ -8,7 +8,7 @@ function  analisarTexto($texto)
 
 }
 
-$texto = "Toca no gk fei.";
+$texto = "Denise, sai da live filha";
 
 echo "Texto original: $texto <br>";
 echo analisarTexto($texto);

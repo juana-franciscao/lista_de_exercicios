@@ -7,7 +7,7 @@ function inverterTexto($texto){
     $caracteres = strlen($texto);
 }
 
-$texto = "Oi";
+$texto = "Denise, sai da live filha";
 
 echo "Texto original: $texto <br>";
 
