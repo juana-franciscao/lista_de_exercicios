@@ -136,7 +136,7 @@ function organizarAgenda($consultas){
     $resultado["Primeiro atendimento"] = primeiroAtendimento($consultas);
     $resultado["Último atendimento"] = ultimoAtendimento($consultas);
     $resultado["Lista ordenada"] = ordenarHorarios($consultas);
-    $resultado["Pesquisa do paciente"] = pesquisarPaciente($consultas, "Rafael");
+    $resultado["Pesquisa do paciente"] = pesquisarPaciente($consultas, "Juana");
     $resultado["Horários duplicados"] = horariosDuplicados($consultas);
 
     return $resultado;
